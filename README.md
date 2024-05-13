@@ -23,11 +23,9 @@ Increase the maximum number of rows to display the entire DataFrame.
 
 ## PROGRAM:
 `````
-#To write a python program for reading content from a CSV file.
+#Program for copying the contents from one file to another file
 #Developed by: S.VENGADA KRISHNAN
 #Register Number: 212223110061
-
-import pandas as pd
 with open ("File1.txt",'r') as fp:
     msg1=fp.read()
 with open ("copy.txt",'w') as fp1:
