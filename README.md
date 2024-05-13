@@ -28,11 +28,10 @@ Increase the maximum number of rows to display the entire DataFrame.
 #Register Number: 212223110061
 
 import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open ("File1.txt",'r') as fp:
+    msg1=fp.read()
+with open ("copy.txt",'w') as fp1:
+    fp1.write(msg1)
 ```````
 
 ### OUTPUT:
